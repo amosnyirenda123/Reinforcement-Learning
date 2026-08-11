@@ -1,0 +1,121 @@
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# Jupyter
+# ================================
+
+.ipynb_checkpoints/
+
+# ================================
+# Environment / Configuration
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDEs / Editors
+# ================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ================================
+# Machine Learning / RL Artifacts
+# ================================
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# TensorBoard
+runs/
+logs/
+
+# Experiment outputs
+outputs/
+results/
+artifacts/
+
+# RL videos / recordings
+videos/
+video/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ================================
+# Data
+# ================================
+
+data/
+datasets/
+
+# Keep directory structure if needed
+!data/.gitkeep
+!datasets/.gitkeep
+
+# ================================
+# Cache / Temporary Files
+# ================================
+
+.cache/
+*.tmp
+*.temp
+*.log
+
+# ================================
+# OS Files
+# ================================
+
+.DS_Store
+Thumbs.db
+
+# ================================
+# Profiling / Debugging
+# ================================
+
+.prof
+*.prof
+*.pstats
+
+# ================================
+# Experiment-specific
+# ================================
+
+wandb/
+mlruns/
+
+# ================================
+# Local Configuration
+# ================================
+
+config.local.yaml
+config.local.yml
+config.local.json
