@@ -1,7 +1,21 @@
 # Foundations of Reinforcement Learning
 
-- Reinforcement learning (RL) is a trial-and-error process.
-- Ultimately, the goal of the agent is to maximize the reward it receives.
+## What is Reinforcement Learning?
+
+- Reinforcement learning (RL) is a generic framework for representing and solving **control tasks** — problems that require an agent to enact behavior.
+- RL works through trial and error: the agent tries actions, observes outcomes, and adjusts over time.
+- The agent's ultimate goal is to maximize the total reward it receives.
+- Deep reinforcement learning applies deep learning techniques to solve RL problems.
+
+![Reinforcement Learning & Deep Learning](../images/rl-and-deep-rl.png "Reinforcement Learning & Deep Learning")
+
+## Control Tasks and Reward Signals
+
+- Control tasks have a time dimension: each piece of data exists in both time and space, so an action taken at one step is influenced by what happened at previous steps.
+- In RL, the agent doesn't know the "correct" action at every step. It only knows the ultimate goal and which outcomes to avoid.
+- The agent learns through **reward signals**: achieving the goal produces a positive reward (positive reinforcement), while an undesired outcome produces a negative reward (negative reinforcement).
+- Over time, the algorithm learns to choose actions that maximize cumulative reward.
+
 
 ## Key Elements
 
